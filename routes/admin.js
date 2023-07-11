@@ -6,7 +6,6 @@ const productcontroller = require('../controllers/products');
 
 const router = express.Router();
 
-const products = [];
 
 // /admin/add-product => GET
 router.get('/add-product', productcontroller.getAddProduct);
